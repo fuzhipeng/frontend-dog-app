@@ -7,6 +7,26 @@
     <main class="main-content">
       <template v-if="route.path === '/'">
         <div class="hero-section">
+          <div class="dog-images">
+            <img 
+              src="/images/dog1.png" 
+              alt="可爱的狗狗" 
+              class="dog-image dog-image-left" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <div class="dog-image-placeholder" style="display:none">
+              请添加 dog1.png 图片到 public/images 目录
+            </div>
+            <img 
+              src="/images/dog2.png" 
+              alt="开心的狗狗" 
+              class="dog-image dog-image-right" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <div class="dog-image-placeholder" style="display:none">
+              请添加 dog2.png 图片到 public/images 目录
+            </div>
+          </div>
           <h1>{{ $t('hero.title') }}</h1>
           <p class="subtitle">{{ $t('hero.subtitle') }}</p>
           <div class="feature-tags">
@@ -57,7 +77,22 @@
             </div>
           </div>
           <div class="preview-container">
-            <div v-if="directDisplay" class="direct-preview" v-html="previewHtml"></div>
+            <!-- 添加加载中状态显示 -->
+            <div v-if="converting" class="loading-container">
+              <div class="loading-content">
+                <div class="loading-icon">
+                  <el-icon class="rotating"><loading /></el-icon>
+                </div>
+                <div class="loading-text">{{ $t('upload.converting') }}</div>
+                <div class="loading-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+            <!-- 成功后显示结果 -->
+            <div v-else-if="directDisplay" class="direct-preview" v-html="previewHtml"></div>
             <el-skeleton v-else :loading="previewLoading" animated :rows="20" style="width: 100%; min-height: 300px;">
               <template #default>
                 <iframe ref="previewFrame" class="preview-frame"></iframe>
@@ -151,8 +186,8 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
-import { ElMessage } from 'element-plus'
-import { UploadFilled, Document, Money, Star, Reading, Lock, MagicStick, Medal, ArrowDown, SwitchButton, Setting, PictureFilled } from '@element-plus/icons-vue'
+import { ElMessage, ElLoading } from 'element-plus'
+import { UploadFilled, Document, Money, Star, Reading, Lock, MagicStick, Medal, ArrowDown, SwitchButton, Setting, PictureFilled, Loading } from '@element-plus/icons-vue'
 import Testimonials from '@/components/Testimonials.vue'
 import FAQ from '@/components/FAQ.vue'
 import { useI18n } from 'vue-i18n'
@@ -323,7 +358,7 @@ const downloadHtml = () => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>${currentImage.value?.name.replace(/\.[^/.]+$/, '') + ' - PhotoStory AI'}</title>
+      <title>${currentImage.value?.name.replace(/\.[^/.]+$/, '') + ' - DogThink AI'}</title>
       <style>
         body {
           margin: 0;
@@ -593,8 +628,8 @@ const startConversion = async () => {
     formData.append('file', currentImage.value.raw) // 修改参数名为file
 
     // 发送POST请求上传图片
-    console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/imagePhotoData`)
-    const response = await axios.post(`${apiBaseUrl.value}/api/file/imagePhotoData`, formData, {
+    console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/imageDogData`)
+    const response = await axios.post(`${apiBaseUrl.value}/api/file/imageDogData`, formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }
@@ -926,23 +961,89 @@ const getUserPointsData = async () => {
 }
 
 .hero-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: 1rem;  /* 调整顶部外边距 */
-  margin-bottom: 2rem;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.dog-images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dog-image {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.dog-image-left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-5deg) translateX(-200px);
+}
+
+.dog-image-right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(5deg) translateX(200px);
+}
+
+.dog-image-placeholder {
+  position: absolute;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  width: 150px;
+  z-index: 0;
+}
+
+/* 添加占位符位置样式 */
+.dog-image-left + .dog-image-placeholder {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) translateX(-200px);
+}
+
+.dog-image-right + .dog-image-placeholder {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) translateX(200px);
 }
 
 .hero-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .subtitle {
+  position: relative;
+  z-index: 2;
   font-size: 1.2rem;
   color: #d4a055;
   margin-bottom: 1.5rem;
+  max-width: 80%;
 }
 
 .feature-tags {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -1617,6 +1718,114 @@ const getUserPointsData = async () => {
   
   .workflow-step {
     padding: 1.5rem 1rem;
+  }
+  
+  /* 移动设备上调整狗狗图片 */
+  .dog-image {
+    width: 150px;
+  }
+  
+  .dog-image-left {
+    left: -80px;
+  }
+  
+  .dog-image-right {
+    right: -80px;
+  }
+  
+  .dog-image-placeholder {
+    width: 80px;
+    font-size: 10px;
+  }
+  
+  .dog-image-left + .dog-image-placeholder {
+    left: -80px;
+  }
+  
+  .dog-image-right + .dog-image-placeholder {
+    right: -80px;
+  }
+
+  .hero-section h1 {
+    max-width: 90%;
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #1f1f1f;
+  border-radius: 4px;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.loading-icon {
+  font-size: 48px;
+  color: #d4a055;
+}
+
+.loading-text {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 4px;
+}
+
+.loading-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #d4a055;
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 
+  40% { 
+    transform: scale(1.0);
+  }
+}
+
+.rotating {
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 </style> 

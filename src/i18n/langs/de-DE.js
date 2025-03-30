@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'PhotoStory AI - KI-Fotogeschichten-Generator',
+    home: 'DogThink AI - Hundegedankenleser',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,131 +8,131 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'PhotoStory AI - KI-Fotogeschichten-Generator',
-    subtitle: 'Verwandeln Sie Ihre Fotos mit KI-Technologie in fesselnde Geschichten. Laden Sie einfach Ihre Bilder hoch, und unsere KI erstellt automatisch emotionale und fantasievolle Geschichten, die jedes Foto zum Leben erwecken.',
+    title: 'DogThink AI - Hundegedankenleser',
+    subtitle: 'Entdecken Sie die inneren Gedanken Ihres Hundes mit KI-Technologie. Laden Sie einfach ein Foto des Gesichtsausdrucks Ihres Hundes hoch, und unsere KI analysiert seinen Ausdruck, um zu interpretieren, was er denkt, und hilft Ihnen, Ihren pelzigen Freund besser zu verstehen und mit ihm zu kommunizieren.',
     tags: {
       free: 'Kostenlos',
-      ai: 'KI-Smart-Kreation',
+      ai: 'KI-gestützte Analyse',
       noRegister: 'Keine Registrierung',
-      unlimited: 'Unbegrenzte Generierung'
+      unlimited: 'Unbegrenzte Analysen'
     }
   },
   upload: {
-    title: 'Bilder hier ablegen oder klicken zum Hochladen',
+    title: 'Hundefotos hier ablegen oder klicken zum Hochladen',
     subtitle: 'Unterstützt PNG, JPG und andere Bildformate',
-    button: 'Bild auswählen',
-    converting: 'Generierung läuft...',
-    success: 'Generierung abgeschlossen',
-    error: 'Generierung fehlgeschlagen',
+    button: 'Foto auswählen',
+    converting: 'Analyse läuft...',
+    success: 'Analyse abgeschlossen',
+    error: 'Analyse fehlgeschlagen',
     retry: 'Erneut versuchen',
     cancel: 'Abbrechen',
     fileSizeExceeded: 'Bildgröße überschreitet das Limit. Upgrade erforderlich',
     needLogin: 'Bitte melden Sie sich an, um Bilder hochzuladen'
   },
   preview: {
-    title: 'Vorschau der Geschichte',
-    download: 'Geschichte herunterladen',
-    copy: 'Geschichte kopieren',
+    title: 'Hunde-Gedankenanalyse Ergebnisse',
+    download: 'Ergebnisse herunterladen',
+    copy: 'Ergebnisse kopieren',
     copySuccess: 'Erfolgreich kopiert',
     copyError: 'Kopieren fehlgeschlagen',
     noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen von PhotoStory AI',
-    subtitle: 'Erleben Sie die nächste Generation der KI-Geschichtengenerierung - Emotional, Fantasievoll, Vielseitig',
+    title: 'Hauptfunktionen von DogThink AI',
+    subtitle: 'Erleben Sie die Haustier-Emotionsanalyse der nächsten Generation - präzise Interpretation, tiefes Verständnis, vielfältige Anwendungen',
     cards: {
       free: {
         title: 'Kostenlos',
-        desc: 'Völlig kostenloser KI-Fotogeschichten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
+        desc: 'Völlig kostenloses Hunde-Gedankenanalyse-Tool, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
       },
       quality: {
-        title: 'Emotionale Geschichten',
-        desc: 'KI-generierte Geschichten mit reichen Emotionen und Fantasie, die Ihre Fotos zum Leben erwecken.'
+        title: 'Präzise Interpretation',
+        desc: 'KI analysiert präzise die Gesichtsausdrücke, Körperhaltungen und Verhaltensweisen Ihres Hundes, um seine Emotionen und Gedanken genau zu interpretieren.'
       },
       smart: {
-        title: 'Intelligente Kreation',
-        desc: 'Analysiert automatisch Fotoinhalte und erstellt perfekt passende Geschichten.'
+        title: 'Intelligente Erkennung',
+        desc: 'Identifiziert automatisch ausdrucksspezifische Merkmale bei über 300 Hunderassen und liefert personalisierte Analyseergebnisse.'
       },
       privacy: {
         title: 'Datenschutz',
-        desc: 'Verwendung fortschrittlicher Verschlüsselungstechnologie zum Schutz Ihrer Fotos, sofortige Löschung nach der Verarbeitung.'
+        desc: 'Verwendung fortschrittlicher Verschlüsselungstechnologie zum Schutz Ihrer Haustierfotos, sofortige Löschung nach der Verarbeitung.'
       },
       understanding: {
-        title: 'Szenarienanpassung',
-        desc: 'Unterstützung für Lebensfotos, Landschaften, Porträts und weitere Arten von Fotogeschichten.'
+        title: 'Verschiedene Emotionen',
+        desc: 'Identifiziert verschiedene emotionale Zustände bei Hunden, darunter Freude, Traurigkeit, Angst, Aufregung, Müdigkeit und mehr.'
       },
       advanced: {
-        title: 'Mehrsprachenunterstützung',
-        desc: 'Generieren Sie Geschichten in mehreren Sprachen, einschließlich Deutsch und Englisch.'
+        title: 'Empfehlungen',
+        desc: 'Bietet basierend auf Analyseergebnissen geeignete Interaktionsmethoden und Pflegevorschläge, um Ihre Bindung zu Ihrem Hund zu stärken.'
       }
     },
     examples: {
-      title: 'Kartengalerie',
-      subtitle: 'Beispiele Professioneller Visitenkarten-Designs',
+      title: 'Analyse-Galerie',
+      subtitle: 'Genaue Hunde-Gedankenanalyse Beispiele',
       tag: 'Beispiel'
     }
   },
   testimonials: {
-    title: 'Benutzerbewertungen von PhotoStory AI',
-    subtitle: 'Erfahren Sie, wie Benutzer aus verschiedenen Branchen unser KI-Fotogeschichten-Tool bewerten',
+    title: 'Was Nutzer über DogThink AI sagen',
+    subtitle: 'Hören Sie, was Haustierbesitzer über unser Hundegedanken-Analyse-Tool sagen',
     list: [
       {
         name: 'Michael Schmidt',
-        title: 'Fotograf',
-        text: 'Die kreativen Fähigkeiten von PhotoStory AI sind beeindruckend. Es generiert schnell emotionale Geschichten aus meinen Fotos und macht jedes Foto bedeutungsvoller. Besonders gefällt mir die Fähigkeit, Emotionen auszudrücken und Fotos berührendere Geschichten erzählen zu lassen.',
+        title: 'Golden Retriever Besitzer',
+        text: 'Die analytischen Fähigkeiten von DogThink AI sind beeindruckend. Es erfasst präzise die subtilen Ausdrucksveränderungen meines Golden Retrievers und liefert vernünftige Erklärungen. Jetzt verstehe ich endlich, warum er manchmal auf bestimmte Weise auf mich reagiert, was uns wirklich geholfen hat, eine bessere Kommunikation aufzubauen.',
         avatar: ''
       },
       {
-        name: 'Sarah Weber',
-        title: 'Reisebloggerin',
-        text: 'Als Reisebloggerin brauche ich ein Tool, das schnell Geschichten für meine Reisefotos erstellen kann. PhotoStory AI hat nicht nur starke kreative Fähigkeiten, sondern versteht auch intelligent Fotoinhalte, um fesselnde Reisegeschichten zu generieren. Seine KI-Kreation macht Reisedokumentation interessanter.',
+        name: 'Sarah Müller',
+        title: 'Border Collie Besitzerin',
+        text: 'Als Border Collie Besitzerin habe ich immer versucht, ihr komplexes Verhalten zu verstehen. DogThink AI analysiert nicht nur gewöhnliche Ausdrücke, sondern erkennt auch rassenspezifische Verhaltensmuster. Die Analyseergebnisse haben mich überrascht - es kann wirklich die "Gedanken" meines Hundes lesen!',
         avatar: ''
       },
       {
-        name: 'Emma Wagner',
-        title: 'Hausfrau',
-        text: 'Bei der Bearbeitung von Familienfotos ist die Geschichtenerstellung von PhotoStory AI hervorragend. Es versteht die Emotionen in Fotos genau und erstellt herzerwärmende Familiengeschichten. Der Datenschutz gibt mir auch Sicherheit.',
+        name: 'Emma Fischer',
+        title: 'Pudel Besitzerin',
+        text: 'Mein Pudel hat einige Angstprobleme, und DogThink AI half mir, die Grundursache zu identifizieren und gab einige praktische Vorschläge. Nach der Anpassung gemäß den Empfehlungen hat sich sein Zustand deutlich verbessert. Dieses Tool ist besonders nützlich für Hundebesitzer mit Verhaltensproblemen.',
         avatar: ''
       },
       {
-        name: 'David Müller',
-        title: 'Social Media Manager',
-        text: 'Die Benutzerfreundlichkeit von PhotoStory AI ist sehr gut. Nach dem Hochladen von Fotos erstellt die KI schnell fesselnde Geschichten, wodurch der gesamte Prozess flüssig und natürlich ist. Die Geschichtenqualität ist ebenfalls ausgezeichnet und macht Social-Media-Inhalte lebendiger und interessanter.',
+        name: 'David Weber',
+        title: 'Husky Besitzer',
+        text: 'Huskys haben immer reichhaltige und vielfältige Ausdrücke, und DogThink AI kann die Bedeutung hinter jedem Blick und jeder Haltung präzise interpretieren. Was mich am meisten überrascht hat, ist, dass es analysieren kann, wann mein Husky im Begriff ist, "Unfug anzustellen", was mir hilft, viele Haushaltsprobleme im Voraus zu vermeiden!',
         avatar: ''
       },
       {
-        name: 'Lisa Fischer',
-        title: 'Studentin',
-        text: 'PhotoStory AI war eine große Hilfe bei der Dokumentation des Campus-Lebens. Es versteht meine Campus-Fotos intelligent und erstellt Geschichten voller jugendlicher Energie. Die Mehrfachanwendung ermöglicht es mir auch, verschiedene Geschichtenstile für verschiedene Anlässe zu erstellen.',
+        name: 'Laura Schulz',
+        title: 'Corgi Besitzerin',
+        text: 'Mein Corgi hat immer sein eigenes kleines Temperament, und durch die Analyse von DogThink AI habe ich endlich die Bedeutung hinter vielen seiner kleinen Bewegungen verstanden. Dieses Tool ist sehr praktisch, und die Analyse macht auch Spaß - jedes Hochladen eines Fotos fühlt sich wie ein Entschlüsselungsspiel an.',
         avatar: ''
       },
       {
-        name: 'Johannes König',
-        title: 'Geschäftsführer',
-        text: 'Die Datenschutzmaßnahmen von PhotoStory AI geben mir großes Vertrauen. Es verwendet fortschrittliche Verschlüsselungstechnologie, um die Fotosicherheit zu gewährleisten. Seine KI-Kreationsfähigkeiten sind leistungsstark und erstellen schnell professionelle Markengeschichten, um ein besseres Markenimage aufzubauen.',
+        name: 'Alexander Becker',
+        title: 'Hundetrainer',
+        text: 'Als professioneller Trainer empfehle ich Kunden, DogThink AI zu verwenden, um ihre Hunde besser zu verstehen. Dieses Tool ist nicht nur für gewöhnliche Haustierbesitzer nützlich, sondern auch für Fachleute sehr hilfreich. Seine Analyseergebnisse stimmen in der Regel mit meiner professionellen Einschätzung überein, sehr genau.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Häufig gestellte Fragen',
-    subtitle: 'Häufige Fragen zu PhotoStory AI',
+    subtitle: 'Allgemeine Fragen zu DogThink AI',
     questions: [
       {
-        q: 'Wofür kann ich dieses Tool verwenden?',
-        a: 'Sie können emotionale und fantasievolle Geschichten für soziale Medien, Reisedokumentation, Familienerinnerungen oder jede andere Gelegenheit erstellen, bei der Sie Fotogeschichten präsentieren möchten.'
+        q: 'Wie genau ist dieses Tool?',
+        a: 'Unsere KI wurde mit Millionen von Hundefotos trainiert und kann subtile Ausdrucksänderungen mit über 85% Genauigkeit identifizieren. Die Analyseergebnisse sollten jedoch immer in Kombination mit Ihrem Verständnis Ihres Hundes interpretiert werden.'
       },
       {
         q: 'Gibt es Gebühren für die Nutzung dieses Tools?',
-        a: 'Derzeit ist dieses Tool völlig kostenlos. Sie können Fotogeschichten ohne Einschränkungen generieren.'
+        a: 'Derzeit sind die Grundfunktionen völlig kostenlos. Sie können Fotos ohne Einschränkungen zur Analyse hochladen. Erweiterte Funktionen wie Verhaltenstrend-Analyse und personalisierte Empfehlungen erfordern ein Abonnement.'
       },
       {
-        q: 'Welche Sprachen werden unterstützt?',
-        a: 'Unsere KI kann Geschichten in mehreren Sprachen verarbeiten, einschließlich Deutsch, Englisch und anderen wichtigen Sprachen.'
+        q: 'Funktioniert es für alle Hunderassen?',
+        a: 'Ja, unsere KI kann Ausdrücke für über 300 Hunderassen analysieren, einschließlich Mischlinge. Das System identifiziert automatisch die Rasse und wendet das entsprechende Analysemodell an.'
       },
       {
         q: 'Sind meine Daten sicher?',
-        a: 'Wir legen großen Wert auf Ihre Privatsphäre. Die von Ihnen bereitgestellten Fotos werden nur zur Generierung von Geschichten verwendet und nicht für andere Zwecke genutzt.'
+        a: 'Wir legen großen Wert auf Ihre Privatsphäre. Die von Ihnen bereitgestellten Hundefotos werden nur für die Ausdrucksanalyse verwendet und nicht für andere Zwecke genutzt. Sie werden nach der Verarbeitung sofort von unseren Servern gelöscht.'
       }
     ]
   },
@@ -141,26 +141,26 @@ export default {
     loading: 'Wird geladen...'
   },
   workflow: {
-    title: 'So verwenden Sie den KI-Fotogeschichten-Generator',
-    subtitle: 'Erstellen Sie schöne Fotogeschichten in 3 einfachen Schritten',
+    title: 'So verwenden Sie den Hunde-Gedankenleser',
+    subtitle: 'Verstehen Sie die Gedanken Ihres Hundes in 3 einfachen Schritten',
     steps: {
       upload: {
-        title: 'Foto hochladen',
-        desc: 'Laden Sie einfach Ihr Foto hoch, um zu beginnen'
+        title: 'Hundefoto hochladen',
+        desc: 'Laden Sie einfach ein Foto des Gesichtsausdrucks Ihres Hundes hoch'
       },
       analyze: {
         title: 'KI-Analyse',
-        desc: 'KI analysiert automatisch das Foto und erstellt eine schöne Geschichte'
+        desc: 'KI analysiert automatisch den Gesichtsausdruck Ihres Hundes und interpretiert seine Gedanken'
       },
       download: {
-        title: 'Herunterladen & Teilen',
-        desc: 'Laden Sie Ihre schöne Fotogeschichte herunter und teilen Sie sie überall'
+        title: 'Ergebnisse abrufen',
+        desc: 'Sehen Sie die Analyseergebnisse und verstehen Sie die wahren Gefühle und Gedanken Ihres Hundes'
       }
     }
   },
   login: {
-    title: 'Bei PhotoStory AI anmelden',
-    subtitle: 'Erleben Sie die besten Funktionen von PhotoStory AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
+    title: 'Anmeldung bei DogThink AI',
+    subtitle: 'Erleben Sie die besten Funktionen von DogThink AI: schnellere Dokumentenverarbeitung und fortschrittliche Formaterhaltung',
     terms: 'Durch die Anmeldung stimmen Sie unseren',
     termsLink: 'Nutzungsbedingungen und Datenschutzrichtlinien zu',
     success: 'Anmeldung erfolgreich',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: 'Wählen Sie Ihren Plan',
-    subtitle: 'Erleben Sie die besten Funktionen von PhotoStory AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
+    subtitle: 'Erleben Sie die besten Funktionen von DogThink AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
     monthly: 'Monatsabonnement',
     yearly: 'Jahresabonnement (20% sparen)',
     highTier: {
@@ -275,11 +275,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Annahme der Bedingungen',
-        content: 'Willkommen bei PhotoStory AI. Durch die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie bitte unsere Dienste nicht.'
+        content: 'Willkommen bei DogThink AI. Durch die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie bitte unsere Dienste nicht.'
       },
       description: {
         title: 'Beschreibung der Dienste',
-        content: 'PhotoStory AI bietet einen KI-gestützten Dokumentenkonvertierungsdienst. Unsere Dienste umfassen:',
+        content: 'DogThink AI bietet einen KI-gestützten Dokumentenkonvertierungsdienst. Unsere Dienste umfassen:',
         items: [
           'KI-gestützte Dokumentenkonvertierung',
           'Textextraktion und -analyse',

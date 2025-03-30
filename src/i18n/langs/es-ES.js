@@ -1,170 +1,177 @@
 export default {
   nav: {
-    home: 'PhotoStory AI - Generador de Historias Fotográficas con IA',
+    home: 'DogMind AI - Lector de mentes caninas',
     features: 'Características',
-    faq: 'Preguntas Frecuentes',
+    faq: 'Preguntas',
     pricing: 'Precios',
-    login: 'Iniciar Sesión',
+    login: 'Iniciar sesión',
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'PhotoStory AI - Generador de Historias Fotográficas con IA',
-    subtitle: 'Transforma tus fotos en historias cautivadoras utilizando tecnología de IA. Simplemente sube tus imágenes y nuestra IA creará automáticamente historias emocionales e imaginativas que dan vida a cada foto.',
+    title: 'DogMind AI - Lector de mentes caninas',
+    subtitle: 'Descubre los pensamientos internos de tu perro con tecnología de IA. Simplemente sube una foto de la expresión facial de tu perro, y nuestra IA analizará sus expresiones para interpretar lo que está pensando, ayudándote a entender y comunicarte mejor con tu amigo peludo.',
     tags: {
       free: 'Gratis',
-      ai: 'Creación Inteligente IA',
-      noRegister: 'Sin Registro',
-      unlimited: 'Generación Ilimitada'
+      ai: 'Basado en IA',
+      noRegister: 'Sin registro',
+      unlimited: 'Análisis ilimitados'
     }
   },
   upload: {
-    title: 'Arrastra imágenes aquí o haz clic para cargar',
-    subtitle: 'Soporta PNG, JPG y otros formatos de imagen',
-    button: 'Seleccionar imagen',
-    converting: 'Generando...',
-    success: 'Generación completada',
-    error: 'Error en la generación',
+    title: 'Arrastra la foto de tu perro aquí o haz clic para subir',
+    subtitle: 'Compatible con PNG, JPG y otros formatos de imagen',
+    button: 'Seleccionar foto',
+    converting: 'Analizando...',
+    success: 'Análisis completado',
+    error: 'Error en el análisis',
     retry: 'Reintentar',
     cancel: 'Cancelar',
-    fileSizeExceeded: 'Tamaño de imagen excedido. Se requiere actualización',
-    needLogin: 'Por favor inicia sesión para cargar imágenes'
+    fileSizeExceeded: 'El tamaño del archivo excede el límite, por favor actualiza a un plan de pago',
+    needLogin: 'Por favor, inicia sesión para subir imágenes'
   },
   preview: {
-    title: 'Vista Previa de la Historia',
-    download: 'Descargar Historia',
-    copy: 'Copiar Historia',
-    copySuccess: 'Copiado exitosamente',
+    title: 'Resultados del análisis de la mente canina',
+    download: 'Descargar resultados',
+    copy: 'Copiar resultados',
+    copySuccess: 'Copiado',
     copyError: 'Error al copiar',
     noContent: 'Sin contenido'
   },
   features: {
-    title: 'Características Principales de PhotoStory AI',
-    subtitle: 'Experimenta la Próxima Generación de Creación de Historias con IA - Emocional, Imaginativa, Versátil',
+    title: 'Características clave de DogMind AI',
+    subtitle: 'Experimenta el análisis de emociones de mascotas de nueva generación - interpretación precisa, comprensión profunda, múltiples aplicaciones',
     cards: {
       free: {
-        title: 'Gratis',
-        desc: 'Generador de historias fotográficas con IA completamente gratuito, sin límites de uso, sin necesidad de registro.'
+        title: 'Servicio gratuito',
+        desc: 'Herramienta completamente gratuita para el análisis de la mente canina, sin límites de uso, sin necesidad de registro.'
       },
       quality: {
-        title: 'Historias Emocionales',
-        desc: 'Historias creadas por IA con emociones ricas e imaginación que dan vida a tus fotos.'
+        title: 'Interpretación precisa',
+        desc: 'La IA analiza con precisión las expresiones faciales, posturas y comportamientos de tu perro para interpretar correctamente sus emociones y pensamientos.'
       },
       smart: {
-        title: 'Creación Inteligente',
-        desc: 'Analiza automáticamente el contenido de las fotos y crea historias perfectamente adaptadas.'
+        title: 'Reconocimiento inteligente',
+        desc: 'Identifica automáticamente características de expresión específicas para más de 300 razas de perros, proporcionando resultados de análisis personalizados.'
       },
       privacy: {
-        title: 'Protección de Privacidad',
-        desc: 'Utilizamos tecnología de encriptación avanzada para proteger tus fotos, eliminándolas inmediatamente después del procesamiento.'
+        title: 'Protección de privacidad',
+        desc: 'Utilizamos tecnología de encriptación avanzada para mantener seguras las fotos de tu mascota, eliminándolas inmediatamente después del procesamiento.'
       },
       understanding: {
-        title: 'Adaptación a Escenarios',
-        desc: 'Soporte para fotos de vida, paisajes, retratos y otros tipos de historias fotográficas.'
+        title: 'Múltiples emociones',
+        desc: 'Identifica varios estados emocionales en perros, incluyendo felicidad, tristeza, ansiedad, excitación, cansancio y muchos más.'
       },
       advanced: {
-        title: 'Soporte Multilingüe',
-        desc: 'Crea historias en múltiples idiomas, incluyendo español e inglés.'
+        title: 'Recomendaciones',
+        desc: 'Proporciona métodos de interacción apropiados y consejos de cuidado basados en los resultados del análisis para fortalecer el vínculo con tu perro.'
       }
     },
     examples: {
-      title: 'Galería de Historias',
-      subtitle: 'Ejemplos de Historias Fotográficas Creativas',
+      title: 'Galería de análisis',
+      subtitle: 'Ejemplos de análisis precisos de mentes caninas',
       tag: 'Ejemplo'
     }
   },
   testimonials: {
-    title: 'Lo que Dicen los Usuarios sobre PhotoStory AI',
-    subtitle: 'Escucha cómo los usuarios de diferentes industrias evalúan nuestra herramienta de generación de historias fotográficas con IA',
+    title: 'Lo que dicen los usuarios sobre DogMind AI',
+    subtitle: 'Reseñas de dueños de mascotas sobre nuestra herramienta de análisis de mentes caninas',
     list: [
       {
-        name: 'Miguel Rodríguez',
-        title: 'Fotógrafo',
-        text: 'Las capacidades creativas de PhotoStory AI son impresionantes. Genera rápidamente historias emocionales a partir de mis fotos y hace que cada imagen sea más significativa. Me encanta especialmente su capacidad para expresar emociones y hacer que las fotos cuenten historias más conmovedoras.',
+        name: 'Miguel Hernández',
+        title: 'Dueño de un Golden Retriever',
+        text: 'Las capacidades analíticas de DogMind AI son impresionantes. Capta con precisión los sutiles cambios en la expresión facial de mi Golden Retriever y proporciona explicaciones razonables. Ahora finalmente entiendo por qué a veces reacciona a mí de ciertas maneras, lo que realmente nos ha ayudado a establecer una mejor comunicación.',
         avatar: ''
       },
       {
         name: 'Laura García',
-        title: 'Blogger de Viajes',
-        text: 'Como blogger de viajes, necesito una herramienta que pueda crear rápidamente historias para mis fotos de viaje. PhotoStory AI no solo tiene fuertes capacidades creativas, sino que también entiende inteligentemente el contenido de las fotos para generar historias cautivadoras de viajes. Su creación con IA hace que la documentación de viajes sea más interesante.',
+        title: 'Dueña de un Border Collie',
+        text: 'Como dueña de un Border Collie, siempre he tratado de entender su comportamiento complejo. DogMind AI no solo analiza expresiones comunes, sino que reconoce patrones de comportamiento específicos de la raza. Los resultados del análisis me sorprendieron: ¡realmente puede leer los "pensamientos" de mi perro!',
         avatar: ''
       },
       {
-        name: 'Ana Martínez',
-        title: 'Ama de Casa',
-        text: 'Al trabajar con fotos familiares, la creación de historias de PhotoStory AI es excelente. Comprende precisamente las emociones en las fotos y genera historias familiares conmovedoras. La protección de la privacidad también me da confianza.',
+        name: 'Elena Martínez',
+        title: 'Dueña de un caniche',
+        text: 'Mi caniche tenía problemas de ansiedad, y DogMind AI me ayudó a identificar la causa raíz y proporcionó algunas sugerencias prácticas. Después de ajustar según las recomendaciones, su condición ha mejorado significativamente. Esta herramienta es especialmente útil para dueños de perros con problemas de comportamiento.',
         avatar: ''
       },
       {
-        name: 'David López',
-        title: 'Gerente de Redes Sociales',
-        text: 'La facilidad de uso de PhotoStory AI es muy buena. Después de subir las fotos, la IA genera rápidamente historias cautivadoras, haciendo todo el proceso fluido y natural. La calidad de las historias también es excelente y hace que el contenido de redes sociales sea más vivo e interesante.',
+        name: 'Diego Rodríguez',
+        title: 'Dueño de un Husky',
+        text: 'Los Huskies siempre tienen expresiones ricas y variadas, y DogMind AI puede interpretar con precisión el significado de cada mirada y postura. Lo que más me sorprendió es que puede analizar cuándo mi Husky está a punto de "causar problemas", ¡ayudando a prevenir muchos desastres domésticos por adelantado!',
         avatar: ''
       },
       {
-        name: 'Carmen Ruiz',
-        title: 'Estudiante',
-        text: 'PhotoStory AI fue de gran ayuda al documentar la vida universitaria. Entiende inteligentemente mis fotos del campus y crea historias llenas de energía juvenil. La multi-funcionalidad también me permite crear diferentes estilos de historias para diferentes ocasiones.',
+        name: 'Ana López',
+        title: 'Dueña de un Corgi',
+        text: 'Mi Corgi siempre tiene su pequeño carácter, y gracias al análisis de DogMind AI, finalmente entendí el significado de muchos de sus pequeños movimientos. Esta herramienta es muy práctica, y el análisis también es divertido - cada carga de foto se siente como un juego de desciframiento.',
         avatar: ''
       },
       {
-        name: 'José Fernández',
-        title: 'CEO',
-        text: 'Las medidas de protección de la privacidad de PhotoStory AI me dan mucha confianza. Utiliza tecnologías avanzadas de encriptación para garantizar la seguridad de las fotos. Sus capacidades de creación con IA son potentes y generan rápidamente historias de marca profesionales, ayudando a construir una mejor imagen de marca.',
+        name: 'Alejandro Sánchez',
+        title: 'Adiestrador canino',
+        text: 'Como adiestrador profesional, recomiendo a los clientes que utilicen DogMind AI para entender mejor a sus perros. Esta herramienta es útil no solo para dueños comunes de mascotas, sino también muy valiosa para profesionales. Sus resultados de análisis generalmente coinciden con mi evaluación profesional, muy precisos.',
         avatar: ''
       }
     ]
   },
   faq: {
-    title: 'Preguntas Frecuentes',
-    subtitle: 'Preguntas comunes sobre PhotoStory AI',
+    title: 'Preguntas frecuentes',
+    subtitle: 'Preguntas comunes sobre DogMind AI',
     questions: [
       {
-        q: '¿Para qué puedo usar esta herramienta?',
-        a: 'Puedes crear historias emocionales e imaginativas para redes sociales, documentación de viajes, recuerdos familiares o cualquier otra ocasión donde desees presentar historias fotográficas.'
+        q: '¿Qué tan precisa es esta herramienta?',
+        a: 'Nuestra IA está entrenada con millones de fotos de perros y puede identificar cambios sutiles en las expresiones con una precisión superior al 85%. Sin embargo, los resultados del análisis siempre deben interpretarse junto con tu comprensión de tu perro.'
       },
       {
         q: '¿Hay algún costo por usar esta herramienta?',
-        a: 'Actualmente, esta herramienta es completamente gratuita. Puedes crear historias fotográficas sin ninguna restricción.'
+        a: 'Actualmente, las funciones básicas son completamente gratuitas. Puedes subir fotos para análisis sin ninguna limitación. Las funciones avanzadas, como análisis de tendencias de comportamiento y recomendaciones personalizadas, requieren una suscripción.'
       },
       {
-        q: '¿Qué idiomas son compatibles?',
-        a: 'Nuestra IA puede procesar historias en múltiples idiomas, incluyendo español, inglés y otros idiomas principales.'
+        q: '¿Funciona para todas las razas de perros?',
+        a: 'Sí, nuestra IA puede analizar expresiones de más de 300 razas de perros, incluyendo razas mixtas. El sistema identifica automáticamente la raza y aplica el modelo de análisis apropiado.'
       },
       {
         q: '¿Están seguros mis datos?',
-        a: 'Valoramos tu privacidad. Las fotos que proporcionas solo se utilizan para crear las historias y no se utilizarán para ningún otro propósito.'
+        a: 'Valoramos tu privacidad. Las fotos de perros que proporcionas se utilizan únicamente para el análisis de expresiones y no se utilizarán para otros propósitos. Se eliminan inmediatamente de nuestros servidores después del procesamiento.'
       }
     ]
+  },
+  workflow: {
+    title: 'Cómo usar el Lector de mentes caninas',
+    subtitle: 'Entiende los pensamientos de tu perro en 3 sencillos pasos',
+    steps: {
+      upload: {
+        title: 'Sube una foto de tu perro',
+        desc: 'Simplemente sube una foto de la expresión de tu perro'
+      },
+      analyze: {
+        title: 'Análisis de IA',
+        desc: 'La IA analiza automáticamente la expresión de tu perro e interpreta sus pensamientos'
+      },
+      download: {
+        title: 'Obtén los resultados',
+        desc: 'Revisa los resultados del análisis y comprende los verdaderos sentimientos y pensamientos de tu perro'
+      }
+    }
   },
   system: {
     languageChanged: 'Idioma cambiado a {lang}',
     loading: 'Cargando...'
   },
-  workflow: {
-    title: 'Cómo usar el Generador de Historias Fotográficas con IA',
-    subtitle: 'Crea hermosas historias fotográficas en 3 sencillos pasos',
-    steps: {
-      upload: {
-        title: 'Sube tu foto',
-        desc: 'Simplemente sube tu foto para comenzar'
-      },
-      analyze: {
-        title: 'Análisis de IA',
-        desc: 'La IA analiza automáticamente la foto y crea una hermosa historia'
-      },
-      download: {
-        title: 'Descargar y Compartir',
-        desc: 'Descarga tu hermosa historia fotográfica y compártela donde quieras'
-      }
-    }
+  error: {
+    title: 'Se ha producido un error',
+    defaultMessage: 'Hubo un problema al cargar la página',
+    backHome: 'Volver al inicio',
+    refresh: 'Refrescar página',
+    details: 'Detalles del error'
   },
   login: {
-    title: 'Iniciar sesión en PhotoStory AI',
-    subtitle: 'Experimente las mejores características de PhotoStory AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    title: 'Iniciar sesión en DogMind AI',
+    subtitle: 'Experimenta las mejores funciones de DogMind AI: procesamiento más rápido y formato avanzado',
     terms: 'Al iniciar sesión, aceptas nuestros',
     termsLink: 'Términos de servicio y Política de privacidad',
     success: 'Inicio de sesión exitoso',
-    error: 'Error de inicio de sesión, por favor intenta de nuevo',
+    error: 'Error de inicio de sesión, inténtalo de nuevo',
     googleLogin: 'Iniciar sesión con Google',
     testUser: 'Usuario de prueba',
     unregisteredOrigin: 'El dominio actual no está registrado en Google Cloud Console, por favor contacta al administrador',
@@ -172,18 +179,11 @@ export default {
     statusError: 'Error al verificar el estado de inicio de sesión',
     mockSuccess: 'Inicio de sesión simulado exitoso',
     mockStatusError: 'Error al verificar el estado de inicio de sesión simulado',
-    scriptError: 'Error al cargar el servicio de inicio de sesión de Google'
-  },
-  error: {
-    title: 'Error ocurrido',
-    defaultMessage: 'Ocurrió un problema al cargar la página',
-    backHome: 'Volver al inicio',
-    refresh: 'Actualizar página',
-    details: 'Detalles del error'
+    scriptError: 'No se pudo cargar el servicio de inicio de sesión de Google'
   },
   pricing: {
     title: 'Elija Su Plan',
-    subtitle: 'Experimente las mejores características de PhotoStory AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    subtitle: 'Experimente las mejores características de DogThink AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     monthly: 'Suscripción mensual',
     yearly: 'Suscripción anual (Ahorre 20%)',
     highTier: {
@@ -275,11 +275,11 @@ export default {
     sections: {
       acceptance: {
         title: 'Aceptación de términos',
-        content: 'Bienvenido a PhotoStory AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
+        content: 'Bienvenido a DogThink AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
       },
       description: {
         title: 'Descripción del servicio',
-        content: 'PhotoStory AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
+        content: 'DogThink AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
         items: [
           'Conversión de documentos asistida por IA',
           'Extracción y análisis de texto',
